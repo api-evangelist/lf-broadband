@@ -1,0 +1,44 @@
+aid: lf-broadband
+name: LF Broadband
+description: >-
+  LF Broadband supports open source broadband networking projects under the Linux Foundation, including reference designs and virtualization tools for broadband access networks. It focuses on projects like SEBA and VOLTHA for virtualizing multi-vendor PON systems.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Broadband
+  - Networking
+  - Telecom
+  - Linux Foundation
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/lf-broadband/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: lf-broadband:lf-broadband-api
+    name: LF Broadband API
+    description: >-
+      Programmatic access to LF Broadband networking tools, VOLTHA APIs, and broadband infrastructure resources.
+    humanURL: https://www.broadband-forum.org/
+    tags:
+  - Broadband
+  - Networking
+  - Telecom
+  - Linux Foundation
+    properties:
+      - type: Documentation
+        url: https://www.broadband-forum.org/
+common:
+  - type: Documentation
+    name: LF Broadband Documentation
+    description: Official documentation for LF Broadband.
+    url: https://www.broadband-forum.org/
+  - type: GitHubOrg
+    name: LF Broadband GitHub
+    description: Source code and repositories for LF Broadband.
+    url: https://github.com/opencord
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
