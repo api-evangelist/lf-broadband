@@ -23,10 +23,10 @@ apis:
       Programmatic access to LF Broadband networking tools, VOLTHA APIs, and broadband infrastructure resources.
     humanURL: https://www.broadband-forum.org/
     tags:
-  - Broadband
-  - Networking
-  - Telecom
-  - Linux Foundation
+      - Broadband
+      - Networking
+      - Telecom
+      - Linux Foundation
     properties:
       - type: Documentation
         url: https://www.broadband-forum.org/
