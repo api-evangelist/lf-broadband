@@ -61,6 +61,8 @@ apis:
       - type: GitHubOrg
         url: https://github.com/opencord
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lf-broadband
   - type: Documentation
     name: LF Broadband Documentation
     description: Official documentation for LF Broadband.
