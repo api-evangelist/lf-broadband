@@ -61,6 +61,8 @@ apis:
       - type: GitHubOrg
         url: https://github.com/opencord
 common:
+  - type: DomainSecurity
+    url: security/lf-broadband-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/lf-broadband
   - type: Documentation
@@ -79,6 +81,8 @@ common:
     name: LF Broadband Support
     description: LF Broadband support contact.
     url: mailto:support@lfbroadband.org
+  - type: Blog
+    url: https://lfbroadband.org/feed/
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
