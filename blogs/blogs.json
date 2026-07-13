@@ -1,0 +1,13 @@
+{
+  "repo": "lf-broadband",
+  "feeds": [
+    {
+      "source": "https://lfbroadband.org/feed/",
+      "feed_url": "https://lfbroadband.org/feed/",
+      "title": "LFBroadband",
+      "saved": 0
+    }
+  ],
+  "fetched": "2026-07-11T11:43:46Z",
+  "post_count": 10
+}
