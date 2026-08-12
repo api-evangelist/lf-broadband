@@ -73,6 +73,15 @@ apis:
       - type: GitHubOrg
         url: https://github.com/opencord
 common:
+  - type: IssueTracker
+    url: https://github.com/opencord/voltha/issues
+  - type: CodeOfConduct
+    url: https://github.com/opencord/voltha/blob/master/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/opencord/.github/blob/master/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/opencord/voltha/blob/master/LICENSE
   - type: DomainSecurity
     url: security/lf-broadband-domain-security.yml
   - type: LinkedIn
