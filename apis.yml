@@ -53,7 +53,7 @@ tags_raw:
   - SDN
   - Open-Source
 created: '2026-03-16'
-modified: '2026-04-28'
+modified: '2026-10-06'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/lf-broadband/refs/heads/main/apis.yml
 specificationVersion: '0.23'
@@ -94,6 +94,8 @@ apis:
       - type: GitHubOrg
         url: https://github.com/opencord
 common:
+  - url: https://lfbroadband.org/blog/
+    type: Blog
   - type: IssueTracker
     url: https://github.com/opencord/voltha/issues
   - type: CodeOfConduct
