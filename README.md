@@ -1,4 +1,4 @@
-# LF Broadband (lf-broadband)
+# LF Broadband
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,47 +66,102 @@
 
 LF Broadband is a Linux Foundation Directed Fund established in late 2023 that supports open source broadband networking projects, including reference designs and virtualization tools for broadband access networks. Its flagship projects, SEBA and VOLTHA, virtualize multi-vendor Passive Optical Network (PON) systems and are deployed by major operators such as Deutsche Telekom and Turk Telekom.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/lf-broadband/refs/heads/main/apis.yml)
+**Areas:** Broadband · Linux Foundation · Networking · Telecommunications · PON · Open Source · SDN
 
-## Scope
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+## LF Broadband on APIs.io
 
-## Tags:
- - Broadband, Linux Foundation, Networking, Telecom, PON, Open Source, SDN
+Everything profiled for LF Broadband is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lf-broadband/](https://apis.io/providers/lf-broadband/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-28
+### APIs (2)
 
-## APIs
+- [VOLTHA](https://apis.io/apis/lf-broadband/voltha/) — VOLTHA (Virtual Optical Line Termination Hardware Abstraction) is an open source platform that virtualizes multi-vendor Passive Optical Network (PON)…
+- [SEBA](https://apis.io/apis/lf-broadband/seba/) — SEBA (SDN-Enabled Broadband Access) is a reference design for constructing open broadband networks, providing a thin platform for access-network workloads…
 
-### VOLTHA
-VOLTHA (Virtual Optical Line Termination Hardware Abstraction) is an open source platform that virtualizes multi-vendor Passive Optical Network (PON) hardware, exposing a vendor-agnostic gRPC API for network operators to manage PON access networks programmatically.
+### Published properties
 
-**Human URL:** [https://docs.voltha.org/](https://docs.voltha.org/)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Properties
-- [Documentation](https://docs.voltha.org/)
-- [GitHub Repository](https://github.com/opencord/voltha)
+#### Security (1)
 
-### SEBA
-SEBA (SDN-Enabled Broadband Access) is a reference design for constructing open broadband networks, providing a thin platform for access-network workloads and integrating VOLTHA, ONOS, and other open source components.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://opennetworking.org/seba/](https://opennetworking.org/seba/)
+- [Lf Broadband Domain Security](https://apis.io/security/lf-broadband/lf-broadband-domain-security/)
 
-#### Properties
-- [Documentation](https://docs.opennetworking.org/seba/)
-- [GitHub Organization](https://github.com/opencord)
+#### Plans and pricing (1)
 
-## Common Properties
-- [LF Broadband Documentation](https://lfbroadband.org/)
-- [LF Broadband GitHub](https://github.com/opencord)
-- [LF Broadband Website](https://lfbroadband.org/)
-- [Support](mailto:support@lfbroadband.org)
+Published plans, tiers and prices.
 
-## Maintainers
-**FN:** Kin Lane
+- [Lf Broadband Plans Pricing](https://apis.io/plans/lf-broadband/lf-broadband-plans-pricing/)
 
-**Email:** info@apievangelist.com
+#### Rate limits (1)
+
+Published request limits.
+
+- [Lf Broadband Rate Limits](https://apis.io/rate-limits/lf-broadband/lf-broadband-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Lf Broadband Finops](https://apis.io/finops/lf-broadband/lf-broadband-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lfbroadband.org/)
+- [Documentation](https://lfbroadband.org/)
+- [Blog](https://lfbroadband.org/blog/)
+
+## API Evangelist rating
+
+**Kin Score 11.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.0** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lf-broadband/](https://apis.io/providers/lf-broadband/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LF Broadband: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lf-broadband/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
